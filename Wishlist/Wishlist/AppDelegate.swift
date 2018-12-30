@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AWSMobileClient
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        print("Hello, world")
+        AWSMobileClient.sharedInstance().initialize { (userState, error) in
+            if let userState = userState {
+                switch(userState) {
+                case .signedOut:
+                    AWSMobileClient.sharedInstance().showSignIn(navigationController: <#T##UINavigationController#>, <#T##completionHandler: (UserState?, Error?) -> Void##(UserState?, Error?) -> Void#>)
+                default:
+                    //TODO:
+                    print("Not implemented yet.")
+                }
+                
+            }
+            
+        }
         return true
     }
 
