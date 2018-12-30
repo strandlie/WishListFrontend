@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8B1141A221D287860063B335 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1141A121D287860063B335 /* GroupTableViewCell.swift */; };
+		8B734E3721D9069200D709B7 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B734E3621D9069200D709B7 /* awsconfiguration.json */; };
+		8B734E4B21D90FD300D709B7 /* WL1GiftInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4221D90FD300D709B7 /* WL1GiftInput.swift */; };
+		8B734E4C21D90FD300D709B7 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4321D90FD300D709B7 /* Empty.swift */; };
+		8B734E4D21D90FD300D709B7 /* WL1ItemInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4421D90FD300D709B7 /* WL1ItemInput.swift */; };
+		8B734E4E21D90FD300D709B7 /* WL1PersonInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4521D90FD300D709B7 /* WL1PersonInput.swift */; };
+		8B734E4F21D90FD300D709B7 /* WL1WishInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4621D90FD300D709B7 /* WL1WishInput.swift */; };
+		8B734E5021D90FD300D709B7 /* WL1WishListAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4721D90FD300D709B7 /* WL1WishListAPIClient.swift */; };
+		8B734E5121D90FD300D709B7 /* WL1GiftGroupInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4821D90FD300D709B7 /* WL1GiftGroupInput.swift */; };
 		8BB6128B21D281BC0099C616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB6128A21D281BC0099C616 /* AppDelegate.swift */; };
 		8BB6128D21D281BC0099C616 /* GiftGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB6128C21D281BC0099C616 /* GiftGroupViewController.swift */; };
 		8BB6128F21D281BC0099C616 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB6128E21D281BC0099C616 /* SecondViewController.swift */; };
@@ -32,6 +40,16 @@
 		2C817941CD043D523FDEE962 /* Pods_Wishlist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wishlist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C982B305BFFE44909C143FB /* Pods-Wishlist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishlist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wishlist/Pods-Wishlist.debug.xcconfig"; sourceTree = "<group>"; };
 		8B1141A121D287860063B335 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		8B734E3621D9069200D709B7 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		8B734E4221D90FD300D709B7 /* WL1GiftInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WL1GiftInput.swift; path = "generated-src/WL1GiftInput.swift"; sourceTree = SOURCE_ROOT; };
+		8B734E4321D90FD300D709B7 /* Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = "generated-src/Empty.swift"; sourceTree = SOURCE_ROOT; };
+		8B734E4421D90FD300D709B7 /* WL1ItemInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WL1ItemInput.swift; path = "generated-src/WL1ItemInput.swift"; sourceTree = SOURCE_ROOT; };
+		8B734E4521D90FD300D709B7 /* WL1PersonInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WL1PersonInput.swift; path = "generated-src/WL1PersonInput.swift"; sourceTree = SOURCE_ROOT; };
+		8B734E4621D90FD300D709B7 /* WL1WishInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WL1WishInput.swift; path = "generated-src/WL1WishInput.swift"; sourceTree = SOURCE_ROOT; };
+		8B734E4721D90FD300D709B7 /* WL1WishListAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WL1WishListAPIClient.swift; path = "generated-src/WL1WishListAPIClient.swift"; sourceTree = SOURCE_ROOT; };
+		8B734E4821D90FD300D709B7 /* WL1GiftGroupInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WL1GiftGroupInput.swift; path = "generated-src/WL1GiftGroupInput.swift"; sourceTree = SOURCE_ROOT; };
+		8B734E4921D90FD300D709B7 /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSApiGatewayBridge.h; path = "generated-src/AWSApiGatewayBridge.h"; sourceTree = SOURCE_ROOT; };
+		8B734E4A21D90FD300D709B7 /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bridging_Header.h; path = "generated-src/Bridging_Header.h"; sourceTree = SOURCE_ROOT; };
 		8BB6128721D281BC0099C616 /* Wishlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wishlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB6128A21D281BC0099C616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BB6128C21D281BC0099C616 /* GiftGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftGroupViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +92,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8B734E4121D90FC700D709B7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8B734E4921D90FD300D709B7 /* AWSApiGatewayBridge.h */,
+				8B734E4A21D90FD300D709B7 /* Bridging_Header.h */,
+				8B734E4321D90FD300D709B7 /* Empty.swift */,
+				8B734E4821D90FD300D709B7 /* WL1GiftGroupInput.swift */,
+				8B734E4221D90FD300D709B7 /* WL1GiftInput.swift */,
+				8B734E4421D90FD300D709B7 /* WL1ItemInput.swift */,
+				8B734E4521D90FD300D709B7 /* WL1PersonInput.swift */,
+				8B734E4621D90FD300D709B7 /* WL1WishInput.swift */,
+				8B734E4721D90FD300D709B7 /* WL1WishListAPIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		8BB6127E21D281BC0099C616 = {
 			isa = PBXGroup;
 			children = (
+				8B734E3621D9069200D709B7 /* awsconfiguration.json */,
 				8BB6128921D281BC0099C616 /* Wishlist */,
 				8BB612A021D281BC0099C616 /* WishlistTests */,
 				8BB6128821D281BC0099C616 /* Products */,
@@ -99,6 +134,7 @@
 			children = (
 				8BB6129821D281BC0099C616 /* Info.plist */,
 				8BB6128A21D281BC0099C616 /* AppDelegate.swift */,
+				8B734E4121D90FC700D709B7 /* API */,
 				8BB612AF21D281DF0099C616 /* Data model */,
 				8BB612AE21D281DB0099C616 /* Views */,
 				8BB612AD21D281D60099C616 /* Resources */,
@@ -241,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B734E3721D9069200D709B7 /* awsconfiguration.json in Resources */,
 				8BB6129721D281BC0099C616 /* LaunchScreen.storyboard in Resources */,
 				8BB6129421D281BC0099C616 /* Assets.xcassets in Resources */,
 				8BB6129221D281BC0099C616 /* Main.storyboard in Resources */,
@@ -264,11 +301,31 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Wishlist/Pods-Wishlist-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAppSync/AWSAppSync.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAppSync.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -300,10 +357,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B734E5121D90FD300D709B7 /* WL1GiftGroupInput.swift in Sources */,
 				8BB6128F21D281BC0099C616 /* SecondViewController.swift in Sources */,
 				8BB6128B21D281BC0099C616 /* AppDelegate.swift in Sources */,
+				8B734E4E21D90FD300D709B7 /* WL1PersonInput.swift in Sources */,
+				8B734E4B21D90FD300D709B7 /* WL1GiftInput.swift in Sources */,
 				8BB6128D21D281BC0099C616 /* GiftGroupViewController.swift in Sources */,
+				8B734E5021D90FD300D709B7 /* WL1WishListAPIClient.swift in Sources */,
+				8B734E4F21D90FD300D709B7 /* WL1WishInput.swift in Sources */,
 				8B1141A221D287860063B335 /* GroupTableViewCell.swift in Sources */,
+				8B734E4D21D90FD300D709B7 /* WL1ItemInput.swift in Sources */,
+				8B734E4C21D90FD300D709B7 /* Empty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.strandlie.Wishlist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "generated-src/Bridging_Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -494,6 +559,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.strandlie.Wishlist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "generated-src/Bridging_Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
