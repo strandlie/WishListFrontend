@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Jeg trenger hjelp"; ObjectID = "36o-8F-KdA"; */
+"36o-8F-KdA.normalTitle" = "Jeg trenger hjelp";
+
+/* Class = "UITextField"; placeholder = "E-post adresse"; ObjectID = "ZU6-iF-SbQ"; */
+"ZU6-iF-SbQ.placeholder" = "E-post adresse";
+
+/* Class = "UIButton"; normalTitle = "Jeg trenger hjelp"; ObjectID = "aGE-pp-hcs"; */
+"aGE-pp-hcs.normalTitle" = "Jeg trenger hjelp";
+
+/* Class = "UIButton"; normalTitle = "Logg inn"; ObjectID = "eZa-XT-504"; */
+"eZa-XT-504.normalTitle" = "Logg inn";
+
+/* Class = "UILabel"; text = "Har du vært her før?"; ObjectID = "g4C-Q0-jWh"; */
+"g4C-Q0-jWh.text" = "Har du vært her før?";
+
+/* Class = "UIButton"; normalTitle = "Registrer"; ObjectID = "gYt-FR-ZYV"; */
+"gYt-FR-ZYV.normalTitle" = "Registrer";
+
+/* Class = "UIViewController"; title = "Hei igjen!"; ObjectID = "wLP-pb-MC6"; */
+"wLP-pb-MC6.title" = "Hei igjen!";
+
+/* Class = "UITextField"; placeholder = "Passord"; ObjectID = "zHg-pz-NcD"; */
+"zHg-pz-NcD.placeholder" = "Passord";

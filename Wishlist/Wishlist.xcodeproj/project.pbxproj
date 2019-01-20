@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B1141A221D287860063B335 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1141A121D287860063B335 /* GroupTableViewCell.swift */; };
+		8B4F092A21EA4E1000A71198 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F092921EA4E1000A71198 /* PersonDetailViewController.swift */; };
 		8B734E3721D9069200D709B7 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B734E3621D9069200D709B7 /* awsconfiguration.json */; };
 		8B734E4B21D90FD300D709B7 /* WL1GiftInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4221D90FD300D709B7 /* WL1GiftInput.swift */; };
 		8B734E4C21D90FD300D709B7 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4321D90FD300D709B7 /* Empty.swift */; };
@@ -16,9 +17,12 @@
 		8B734E4F21D90FD300D709B7 /* WL1WishInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4621D90FD300D709B7 /* WL1WishInput.swift */; };
 		8B734E5021D90FD300D709B7 /* WL1WishListAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4721D90FD300D709B7 /* WL1WishListAPIClient.swift */; };
 		8B734E5121D90FD300D709B7 /* WL1GiftGroupInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4821D90FD300D709B7 /* WL1GiftGroupInput.swift */; };
+		8B82925321E763D300218DBA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82924E21E763D300218DBA /* SecondViewController.swift */; };
+		8B82925421E763D300218DBA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82924F21E763D300218DBA /* RegisterViewController.swift */; };
+		8B82925521E763D300218DBA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82925021E763D300218DBA /* StartViewController.swift */; };
+		8B82925621E763D300218DBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82925121E763D300218DBA /* LoginViewController.swift */; };
+		8B82925721E763D300218DBA /* GiftGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82925221E763D300218DBA /* GiftGroupViewController.swift */; };
 		8BB6128B21D281BC0099C616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB6128A21D281BC0099C616 /* AppDelegate.swift */; };
-		8BB6128D21D281BC0099C616 /* GiftGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB6128C21D281BC0099C616 /* GiftGroupViewController.swift */; };
-		8BB6128F21D281BC0099C616 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB6128E21D281BC0099C616 /* SecondViewController.swift */; };
 		8BB6129221D281BC0099C616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB6129021D281BC0099C616 /* Main.storyboard */; };
 		8BB6129421D281BC0099C616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB6129321D281BC0099C616 /* Assets.xcassets */; };
 		8BB6129721D281BC0099C616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB6129521D281BC0099C616 /* LaunchScreen.storyboard */; };
@@ -40,6 +44,7 @@
 		2C817941CD043D523FDEE962 /* Pods_Wishlist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wishlist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C982B305BFFE44909C143FB /* Pods-Wishlist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishlist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wishlist/Pods-Wishlist.debug.xcconfig"; sourceTree = "<group>"; };
 		8B1141A121D287860063B335 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		8B4F092921EA4E1000A71198 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
 		8B734E3621D9069200D709B7 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		8B734E4221D90FD300D709B7 /* WL1GiftInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WL1GiftInput.swift; path = "generated-src/WL1GiftInput.swift"; sourceTree = SOURCE_ROOT; };
 		8B734E4321D90FD300D709B7 /* Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = "generated-src/Empty.swift"; sourceTree = SOURCE_ROOT; };
@@ -50,10 +55,15 @@
 		8B734E4821D90FD300D709B7 /* WL1GiftGroupInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WL1GiftGroupInput.swift; path = "generated-src/WL1GiftGroupInput.swift"; sourceTree = SOURCE_ROOT; };
 		8B734E4921D90FD300D709B7 /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSApiGatewayBridge.h; path = "generated-src/AWSApiGatewayBridge.h"; sourceTree = SOURCE_ROOT; };
 		8B734E4A21D90FD300D709B7 /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bridging_Header.h; path = "generated-src/Bridging_Header.h"; sourceTree = SOURCE_ROOT; };
+		8B82924E21E763D300218DBA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = Wishlist/OldControllers/SecondViewController.swift; sourceTree = SOURCE_ROOT; };
+		8B82924F21E763D300218DBA /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = Wishlist/OldControllers/RegisterViewController.swift; sourceTree = SOURCE_ROOT; };
+		8B82925021E763D300218DBA /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = Wishlist/OldControllers/StartViewController.swift; sourceTree = SOURCE_ROOT; };
+		8B82925121E763D300218DBA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Wishlist/OldControllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		8B82925221E763D300218DBA /* GiftGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GiftGroupViewController.swift; path = Wishlist/OldControllers/GiftGroupViewController.swift; sourceTree = SOURCE_ROOT; };
+		8B82925821E7683B00218DBA /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Main.strings; sourceTree = "<group>"; };
+		8B82925921E7683C00218DBA /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8BB6128721D281BC0099C616 /* Wishlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wishlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB6128A21D281BC0099C616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BB6128C21D281BC0099C616 /* GiftGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftGroupViewController.swift; sourceTree = "<group>"; };
-		8BB6128E21D281BC0099C616 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8BB6129121D281BC0099C616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BB6129321D281BC0099C616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BB6129621D281BC0099C616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,6 +118,19 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		8B82924D21E763C500218DBA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B82925221E763D300218DBA /* GiftGroupViewController.swift */,
+				8B82925121E763D300218DBA /* LoginViewController.swift */,
+				8B82924E21E763D300218DBA /* SecondViewController.swift */,
+				8B82924F21E763D300218DBA /* RegisterViewController.swift */,
+				8B82925021E763D300218DBA /* StartViewController.swift */,
+				8B4F092921EA4E1000A71198 /* PersonDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		8BB6127E21D281BC0099C616 = {
 			isa = PBXGroup;
 			children = (
@@ -137,8 +160,8 @@
 				8B734E4121D90FC700D709B7 /* API */,
 				8BB612AF21D281DF0099C616 /* Data model */,
 				8BB612AE21D281DB0099C616 /* Views */,
+				8B82924D21E763C500218DBA /* Controllers */,
 				8BB612AD21D281D60099C616 /* Resources */,
-				8BB612AC21D281CD0099C616 /* Controllers */,
 			);
 			path = Wishlist;
 			sourceTree = "<group>";
@@ -150,15 +173,6 @@
 				8BB612A321D281BC0099C616 /* Info.plist */,
 			);
 			path = WishlistTests;
-			sourceTree = "<group>";
-		};
-		8BB612AC21D281CD0099C616 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				8BB6128C21D281BC0099C616 /* GiftGroupViewController.swift */,
-				8BB6128E21D281BC0099C616 /* SecondViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		8BB612AD21D281D60099C616 /* Resources */ = {
@@ -357,16 +371,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B82925721E763D300218DBA /* GiftGroupViewController.swift in Sources */,
+				8B82925421E763D300218DBA /* RegisterViewController.swift in Sources */,
 				8B734E5121D90FD300D709B7 /* WL1GiftGroupInput.swift in Sources */,
-				8BB6128F21D281BC0099C616 /* SecondViewController.swift in Sources */,
 				8BB6128B21D281BC0099C616 /* AppDelegate.swift in Sources */,
 				8B734E4E21D90FD300D709B7 /* WL1PersonInput.swift in Sources */,
 				8B734E4B21D90FD300D709B7 /* WL1GiftInput.swift in Sources */,
-				8BB6128D21D281BC0099C616 /* GiftGroupViewController.swift in Sources */,
+				8B82925521E763D300218DBA /* StartViewController.swift in Sources */,
 				8B734E5021D90FD300D709B7 /* WL1WishListAPIClient.swift in Sources */,
+				8B4F092A21EA4E1000A71198 /* PersonDetailViewController.swift in Sources */,
 				8B734E4F21D90FD300D709B7 /* WL1WishInput.swift in Sources */,
 				8B1141A221D287860063B335 /* GroupTableViewCell.swift in Sources */,
 				8B734E4D21D90FD300D709B7 /* WL1ItemInput.swift in Sources */,
+				8B82925321E763D300218DBA /* SecondViewController.swift in Sources */,
+				8B82925621E763D300218DBA /* LoginViewController.swift in Sources */,
 				8B734E4C21D90FD300D709B7 /* Empty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +412,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8BB6129121D281BC0099C616 /* Base */,
+				8B82925821E7683B00218DBA /* nb */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -402,6 +421,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8BB6129621D281BC0099C616 /* Base */,
+				8B82925921E7683C00218DBA /* nb */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -413,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -474,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
