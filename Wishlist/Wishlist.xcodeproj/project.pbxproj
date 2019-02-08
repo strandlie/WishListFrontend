@@ -17,7 +17,9 @@
 		8B734E4F21D90FD300D709B7 /* WL1WishInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4621D90FD300D709B7 /* WL1WishInput.swift */; };
 		8B734E5021D90FD300D709B7 /* WL1WishListAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4721D90FD300D709B7 /* WL1WishListAPIClient.swift */; };
 		8B734E5121D90FD300D709B7 /* WL1GiftGroupInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B734E4821D90FD300D709B7 /* WL1GiftGroupInput.swift */; };
-		8B82925321E763D300218DBA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82924E21E763D300218DBA /* SecondViewController.swift */; };
+		8B7F819021F9BF7700C24A2E /* SixDigitInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F818F21F9BF7700C24A2E /* SixDigitInputViewController.swift */; };
+		8B7F819221F9C6D100C24A2E /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F819121F9C6D100C24A2E /* SpinnerViewController.swift */; };
+		8B81E29222077877005584A7 /* DigitTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81E29122077877005584A7 /* DigitTextField.swift */; };
 		8B82925421E763D300218DBA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82924F21E763D300218DBA /* RegisterViewController.swift */; };
 		8B82925521E763D300218DBA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82925021E763D300218DBA /* StartViewController.swift */; };
 		8B82925621E763D300218DBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82925121E763D300218DBA /* LoginViewController.swift */; };
@@ -55,7 +57,9 @@
 		8B734E4821D90FD300D709B7 /* WL1GiftGroupInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WL1GiftGroupInput.swift; path = "generated-src/WL1GiftGroupInput.swift"; sourceTree = SOURCE_ROOT; };
 		8B734E4921D90FD300D709B7 /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSApiGatewayBridge.h; path = "generated-src/AWSApiGatewayBridge.h"; sourceTree = SOURCE_ROOT; };
 		8B734E4A21D90FD300D709B7 /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bridging_Header.h; path = "generated-src/Bridging_Header.h"; sourceTree = SOURCE_ROOT; };
-		8B82924E21E763D300218DBA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = Wishlist/OldControllers/SecondViewController.swift; sourceTree = SOURCE_ROOT; };
+		8B7F818F21F9BF7700C24A2E /* SixDigitInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixDigitInputViewController.swift; sourceTree = "<group>"; };
+		8B7F819121F9C6D100C24A2E /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		8B81E29122077877005584A7 /* DigitTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitTextField.swift; sourceTree = "<group>"; };
 		8B82924F21E763D300218DBA /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = Wishlist/OldControllers/RegisterViewController.swift; sourceTree = SOURCE_ROOT; };
 		8B82925021E763D300218DBA /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = Wishlist/OldControllers/StartViewController.swift; sourceTree = SOURCE_ROOT; };
 		8B82925121E763D300218DBA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Wishlist/OldControllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -123,10 +127,11 @@
 			children = (
 				8B82925221E763D300218DBA /* GiftGroupViewController.swift */,
 				8B82925121E763D300218DBA /* LoginViewController.swift */,
-				8B82924E21E763D300218DBA /* SecondViewController.swift */,
 				8B82924F21E763D300218DBA /* RegisterViewController.swift */,
 				8B82925021E763D300218DBA /* StartViewController.swift */,
 				8B4F092921EA4E1000A71198 /* PersonDetailViewController.swift */,
+				8B7F818F21F9BF7700C24A2E /* SixDigitInputViewController.swift */,
+				8B7F819121F9C6D100C24A2E /* SpinnerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				8BB6129521D281BC0099C616 /* LaunchScreen.storyboard */,
 				8BB6129321D281BC0099C616 /* Assets.xcassets */,
 				8B1141A121D287860063B335 /* GroupTableViewCell.swift */,
+				8B81E29122077877005584A7 /* DigitTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,10 +377,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7F819021F9BF7700C24A2E /* SixDigitInputViewController.swift in Sources */,
 				8B82925721E763D300218DBA /* GiftGroupViewController.swift in Sources */,
 				8B82925421E763D300218DBA /* RegisterViewController.swift in Sources */,
 				8B734E5121D90FD300D709B7 /* WL1GiftGroupInput.swift in Sources */,
 				8BB6128B21D281BC0099C616 /* AppDelegate.swift in Sources */,
+				8B7F819221F9C6D100C24A2E /* SpinnerViewController.swift in Sources */,
 				8B734E4E21D90FD300D709B7 /* WL1PersonInput.swift in Sources */,
 				8B734E4B21D90FD300D709B7 /* WL1GiftInput.swift in Sources */,
 				8B82925521E763D300218DBA /* StartViewController.swift in Sources */,
@@ -383,7 +391,7 @@
 				8B734E4F21D90FD300D709B7 /* WL1WishInput.swift in Sources */,
 				8B1141A221D287860063B335 /* GroupTableViewCell.swift in Sources */,
 				8B734E4D21D90FD300D709B7 /* WL1ItemInput.swift in Sources */,
-				8B82925321E763D300218DBA /* SecondViewController.swift in Sources */,
+				8B81E29222077877005584A7 /* DigitTextField.swift in Sources */,
 				8B82925621E763D300218DBA /* LoginViewController.swift in Sources */,
 				8B734E4C21D90FD300D709B7 /* Empty.swift in Sources */,
 			);
